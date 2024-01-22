@@ -1,6 +1,7 @@
 import '@fontsource/rosarivo';
 import React from 'react';
-import Button from './Button';
+import ButtonBlue from './ButtonBlue';
+import ButtonLight from './ButtonLight';
 import styles from './header.module.scss';
 
 export default function Header() {
@@ -10,9 +11,11 @@ export default function Header() {
         <img src="/images/logo.svg" alt="Logo" className={styles.logo} />
         <ul>
           <li>
-            <Button>Join now</Button>
+            <ButtonBlue>Join now</ButtonBlue>
           </li>
-          <li>Sign in</li>
+          <li>
+            <ButtonLight>Sign in</ButtonLight>
+          </li>
         </ul>
       </nav>
       <h1>

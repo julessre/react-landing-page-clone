@@ -1,9 +1,10 @@
-.button {
+.buttonBlue {
   color: white;
   background-color: var(--primary-color);
   padding: 10px 15px;
   border-radius: 15px;
   border-color: var(--primary-color);
+  border-style: solid;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
@@ -11,6 +12,24 @@
   &:hover {
     background-color: white;
     color: var(--primary-color);
+    cursor: pointer;
+  }
+}
+
+.buttonLight {
+  color: black;
+  background-color: transparent;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border-color: transparent;
+  border-style: solid;
+  display: block;
+  font-weight: 400;
+
+  &:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
     cursor: pointer;
   }
 }
