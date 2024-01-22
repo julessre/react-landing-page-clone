@@ -1,0 +1,26 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-background: linear-gradient(
+    90deg,
+    #e9f7fd 0%,
+    #e8f6fd 9.09%,
+    #e7f1fc 18.18%,
+    #e5eafb 27.27%,
+    #e3e2fa 36.36%,
+    #e9dff8 45.45%,
+    #efddf6 54.55%,
+    #f4dbf3 63.64%,
+    #f2d9ea 72.73%,
+    #f0d8e2 81.82%,
+    #efd7de 90.91%,
+    #eed7dc 100%
+  );
+  --primary-color: #0000ff;
+}

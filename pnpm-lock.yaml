@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource/rosarivo':
+    specifier: ^5.0.18
+    version: 5.0.18
   '@upleveled/react-scripts':
     specifier: 5.0.13
     version: 5.0.13(eslint@8.56.0)(react@18.2.0)(sass@1.70.0)(typescript@5.3.3)
@@ -1739,6 +1742,10 @@ packages:
   /@eslint/js@8.56.0:
     resolution: {integrity: sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  /@fontsource/rosarivo@5.0.18:
+    resolution: {integrity: sha512-w+c45PwSASIxlEmOotDtPoRRU6TFjKfc+4vQM0iKFKJG717VyshBGU7PTThOcG8ApHteBAxK4679htNAW6Dmxw==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
