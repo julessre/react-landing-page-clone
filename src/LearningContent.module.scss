@@ -1,0 +1,22 @@
+.sectionBackground {
+  background: var(--color-background);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 70px;
+}
+
+.sectionContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px 20px 50px;
+  text-align: left;
+  display: block;
+  width: 1140px;
+}
+
+.sectionHeader {
+  width: 70%;
+  margin: 50px auto;
+}

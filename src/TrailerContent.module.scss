@@ -1,0 +1,34 @@
+.sectionBackground {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom-left-radius: 4em;
+  border-bottom-right-radius: 4em;
+  overflow: hidden;
+  background: white;
+}
+
+.sectionContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px 70px 100px 70px;
+  display: block;
+  width: 1140px;
+  overflow: hidden;
+}
+
+.sectionHeader {
+  width: 70%;
+  margin: 50px auto;
+  display: block;
+}
+
+.containerVideo {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  border: 0;
+}
