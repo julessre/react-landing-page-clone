@@ -5,7 +5,8 @@ import stylesProp from './LearningContentProp.module.scss';
 
 export default function LearningContent() {
   return (
-    <div className={styles.sectionBackground}>
+    <section className={styles.sectionBackground}>
+      <div className={styles.sectionTopDesign} />
       <div className={styles.sectionContainer}>
         <div className={styles.sectionHeader}>
           <h2>What you will learn</h2>
@@ -54,6 +55,6 @@ export default function LearningContent() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
